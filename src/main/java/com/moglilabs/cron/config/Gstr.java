@@ -22,6 +22,8 @@ public class Gstr implements ServletContextListener{
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		System.out.println("Context Initialized");
+
+		
 		
 		try {
             // Setup the Job class and the Job group
